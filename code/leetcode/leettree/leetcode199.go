@@ -2,14 +2,12 @@ package leettree
 
 // 二叉树的右视图
 func Leetcode199() string {
-	var pre = []int{1, 2, 3, 4, 5, 6, 7}
-	var vin = []int{3, 2, 4, 1, 6, 5, 7}
-	root := reConstructBinaryTree(pre, vin)
-	rightSideView(root)
+	tree := []string{"1", "2", "3", "null", "5", "null", "4"}
+	RightSideView(BuildTreeFromArray(tree))
 	return "done!"
 }
 
-func rightSideView(root *TreeNode) []int {
+func RightSideView(root *TreeNode) []int {
 	result := []int{}
 	if root == nil {
 		return result

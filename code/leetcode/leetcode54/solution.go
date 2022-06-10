@@ -7,11 +7,11 @@ func Run() string {
 		{4, 5, 6},
 		{7, 8, 9},
 	}
-	spiralOrder(matrix)
+	SpiralOrder(matrix)
 	return "done!"
 }
 
-func spiralOrder(matrix [][]int) []int {
+func SpiralOrder(matrix [][]int) []int {
 	res := []int{}
 	if len(matrix) == 0 {
 		return res

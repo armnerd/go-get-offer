@@ -12,11 +12,11 @@ func Run() string {
 		{8, 10},
 		{15, 18},
 	}
-	merge(intervals)
+	Merge(intervals)
 	return "done!"
 }
 
-func merge(intervals [][]int) [][]int {
+func Merge(intervals [][]int) [][]int {
 	length := len(intervals)
 	if length <= 1 {
 		return intervals

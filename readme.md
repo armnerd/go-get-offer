@@ -7,6 +7,21 @@
 * 可运行 { 可调试查看过程 }
 * 可打印 { 面试前手写突击 }
 
+## Test
+
+```bash
+cd code/test/leetcode
+
+// 都拉出来溜溜
+go test -v
+
+// 测试一个函数
+go test -run TestTree
+
+// 可视化
+goconvey
+```
+
 ### 牛客 { 81 }
 
 * https://www.nowcoder.com/ta/coding-interviews

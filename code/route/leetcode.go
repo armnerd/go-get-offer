@@ -1,9 +1,9 @@
 package route
 
 import (
-	"code/leecode/leetcode54"
-	"code/leecode/leetcode56"
-	"code/leecode/leettree"
+	"code/leetcode/leetcode54"
+	"code/leetcode/leetcode56"
+	"code/leetcode/leettree"
 )
 
 /*
