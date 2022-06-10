@@ -2,8 +2,8 @@ package leettree
 
 // 二叉树的右视图
 func Leetcode199() string {
-	tree := []string{"1", "2", "3", "null", "5", "null", "4"}
-	RightSideView(BuildTreeFromArray(tree))
+	tree := []int{1, 2, 3, NULL, 5, NULL, 4}
+	RightSideView(Ints2TreeNode(tree))
 	return "done!"
 }
 

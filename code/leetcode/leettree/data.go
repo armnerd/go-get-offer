@@ -1,91 +1,72 @@
 package leettree
 
-import (
-	"strconv"
-)
-
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
 	Right *TreeNode
 }
 
-// 还原树
-func BuildTreeFromArray(row []string) *TreeNode {
-	data := [][]string{}
-	level := 1
-	count := 1
-	temp := row
-	// 分层整理
-	for len(temp) > 0 {
-		data = append(data, temp[:count])
-		temp = temp[count:]
-		level += 1
-		count *= 2
+var NULL = -1 << 63
+
+// Ints2TreeNode 利用 []int 生成 *TreeNode
+func Ints2TreeNode(ints []int) *TreeNode {
+	n := len(ints)
+	if n == 0 {
+		return nil
 	}
-	// 创建节点
-	nodes := [][]*TreeNode{}
-	for i := 0; i < len(data); i++ {
-		line := data[i]
-		nodeLine := make([]*TreeNode, 0)
-		for j := 0; j < len(line); j++ {
-			var node *TreeNode
-			if line[j] != "null" {
-				val, _ := strconv.Atoi(line[j])
-				node = &TreeNode{
-					Val: val,
-				}
-			}
-			nodeLine = append(nodeLine, node)
+
+	root := &TreeNode{
+		Val: ints[0],
+	}
+
+	queue := make([]*TreeNode, 1, n*2)
+	queue[0] = root
+
+	i := 1
+	for i < n {
+		node := queue[0]
+		queue = queue[1:]
+
+		if i < n && ints[i] != NULL {
+			node.Left = &TreeNode{Val: ints[i]}
+			queue = append(queue, node.Left)
 		}
-		nodes = append(nodes, nodeLine)
-	}
-	// 从上到下连接节点
-	for i := 0; i < len(nodes)-1; i++ {
-		line := nodes[i]
-		below := nodes[i+1]
-		for j := 0; j < len(line); j++ {
-			if line[j] != nil {
-				line[j].Left = below[j*2]
-				line[j].Right = below[j*2+1]
-			}
+		i++
+
+		if i < n && ints[i] != NULL {
+			node.Right = &TreeNode{Val: ints[i]}
+			queue = append(queue, node.Right)
 		}
+		i++
 	}
-	// 返回根节点
-	return nodes[0][0]
+
+	return root
 }
 
-// 序列化树
-func SerializeATree(pRoot *TreeNode) (result []string) {
-	if pRoot == nil {
-		return
-	}
-	nodeToBeMachined := []*TreeNode{pRoot} // 待处理的一层节点
-	bottom := false
-	for !bottom {
-		nextLevelNodes := make([]*TreeNode, 0)
-		bottom = true
-		for _, item := range nodeToBeMachined {
-			if item == nil {
-				result = append(result, "null")
+// Tree2ints 把 *TreeNode 按照行还原成 []int
+func Tree2ints(tn *TreeNode) []int {
+	res := make([]int, 0, 1024)
+
+	queue := []*TreeNode{tn}
+
+	for len(queue) > 0 {
+		size := len(queue)
+		for i := 0; i < size; i++ {
+			nd := queue[i]
+			if nd == nil {
+				res = append(res, NULL)
 			} else {
-				result = append(result, strconv.Itoa(item.Val))
-				// 只要有不是 nil 的节点就说明没到底
-				bottom = false
-				if item.Left != nil {
-					nextLevelNodes = append(nextLevelNodes, item.Left)
-				} else if item.Right != nil {
-					nextLevelNodes = append(nextLevelNodes, nil)
-				}
-				// 只有一个子节点时才会有 null
-				if item.Right != nil {
-					nextLevelNodes = append(nextLevelNodes, item.Right)
-				} else if item.Left != nil {
-					nextLevelNodes = append(nextLevelNodes, nil)
-				}
+				res = append(res, nd.Val)
+				queue = append(queue, nd.Left, nd.Right)
 			}
 		}
-		nodeToBeMachined = nextLevelNodes
+		queue = queue[size:]
 	}
-	return
+
+	i := len(res)
+	for i > 0 && res[i-1] == NULL {
+		i--
+	}
+
+	return res[:i]
 }
