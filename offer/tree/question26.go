@@ -2,6 +2,9 @@ package tree
 
 // 树的子结构
 func Question26() string {
+	root1 := []int{8, 8, 7, 9, 2, NULL, NULL, NULL, NULL, 4, 7}
+	root2 := []int{8, 9, 2}
+	HasSubtree(Ints2TreeNode(root1), Ints2TreeNode(root2))
 	return "done!"
 }
 

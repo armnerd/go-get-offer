@@ -7,6 +7,12 @@
 * 可运行 { 可调试查看过程 }
 * 可打印 { 面试前手写突击 }
 
+## Run
+
+```bash
+go run main.go offer68
+```
+
 ## Test
 
 ```bash
@@ -38,67 +44,67 @@ goconvey
 
 > 链表
 
-* [从尾到头打印链表](./doc/offer/6.md) 
-* [反转链表](./doc/offer/24.md) 
-* [合并两个排序的链表](./doc/offer/25.md) 
-* [两个链表的第一个公共结点](./doc/offer/52.md) 
-* [链表中环的入口结点](./doc/offer/23.md) 
-* [链表中倒数最后k个结点](./doc/offer/22.md) 
-* [复杂链表的复制](./doc/offer/35.md) 
-* [删除链表中重复的结点](./doc/offer/76.md) 
-* [删除链表的节点](./doc/offer/18.md)
+* [从尾到头打印链表](./doc/offer/link/6.md) 
+* [反转链表](./doc/offer/link/24.md) 
+* [合并两个排序的链表](./doc/offer/link/25.md) 
+* [两个链表的第一个公共结点](./doc/offer/link/52.md) 
+* [链表中环的入口结点](./doc/offer/link/23.md) 
+* [链表中倒数最后k个结点](./doc/offer/link/22.md) 
+* [复杂链表的复制](./doc/offer/link/35.md) 
+* [删除链表中重复的结点](./doc/offer/link/76.md) 
+* [删除链表的节点](./doc/offer/link/18.md)
 
 > 树
 
-* [二叉树的深度](./doc/offer/55.md) 
-* [按之字形顺序打印二叉树](./doc/offer/77.md) 
-* [二叉搜索树的第k个结点](./doc/offer/54.md) 
-* [重建二叉树](./doc/offer/7.md) 
-* [树的子结构](./doc/offer/26.md) 
-* [二叉树的镜像](./doc/offer/27.md) 
-* [从上往下打印二叉树](./doc/offer/32.md) 
-* [二叉搜索树的后序遍历序列](./doc/offer/33.md) 
-* [二叉树中和为某一值的路径(一)](./doc/offer/82.md) 
-* [二叉树中和为某一值的路径(二)](./doc/offer/34.md) 
-* [二叉搜索树与双向链表](./doc/offer/36.md) 
-* [判断是不是平衡二叉树](./doc/offer/79.md) 
-* [二叉树的下一个结点](./doc/offer/8.md) 
-* [对称的二叉树](./doc/offer/28.md) 
-* [把二叉树打印成多行](./doc/offer/78.md) 
-* [序列化二叉树](./doc/offer/37.md) 
-* [二叉树中和为某一值的路径(三)](./doc/offer/84.md)
-* [在二叉树中找到两个节点的最近公共祖先](./doc/offer/86.md)
-* [二叉搜索树的最近公共祖先](./doc/offer/68.md) 
+* [二叉树的深度](./doc/offer/tree/55.md) 
+* [按之字形顺序打印二叉树](./doc/offer/tree/77.md) 
+* [二叉搜索树的第k个结点](./doc/offer/tree/54.md) 
+* [重建二叉树](./doc/offer/tree/7.md) 
+* [树的子结构](./doc/offer/tree/26.md) 
+* [二叉树的镜像](./doc/offer/tree/27.md) 
+* [从上往下打印二叉树](./doc/offer/tree/32.md) 
+* [二叉搜索树的后序遍历序列](./doc/offer/tree/33.md) 
+* [二叉树中和为某一值的路径(一)](./doc/offer/tree/82.md) 
+* [二叉树中和为某一值的路径(二)](./doc/offer/tree/34.md) 
+* [二叉搜索树与双向链表](./doc/offer/tree/36.md) 
+* [判断是不是平衡二叉树](./doc/offer/tree/79.md) 
+* [二叉树的下一个结点](./doc/offer/tree/8.md) 
+* [对称的二叉树](./doc/offer/tree/28.md) 
+* [把二叉树打印成多行](./doc/offer/tree/78.md) 
+* [序列化二叉树](./doc/offer/tree/37.md) 
+* [二叉树中和为某一值的路径(三)](./doc/offer/tree/84.md)
+* [在二叉树中找到两个节点的最近公共祖先](./doc/offer/tree/86.md)
+* [二叉搜索树的最近公共祖先](./doc/offer/tree/68.md) 
 
 > 队列 & 栈
 
-* [用两个栈实现队列](./doc/offer/9.md) 
-* [包含min函数的栈](./doc/offer/30.md) 
-* [栈的压入、弹出序列](./doc/offer/31.md) 
-* [翻转单词序列](./doc/offer/73.md) 
-* [滑动窗口的最大值](./doc/offer/59.md)
+* [用两个栈实现队列](./doc/offer/queueAndStack/9.md) 
+* [包含min函数的栈](./doc/offer/queueAndStack/30.md) 
+* [栈的压入、弹出序列](./doc/offer/queueAndStack/31.md) 
+* [翻转单词序列](./doc/offer/queueAndStack/73.md) 
+* [滑动窗口的最大值](./doc/offer/queueAndStack/59.md)
 
 > 搜索算法
 
-* [数字在升序数组中出现的次数](./doc/offer/53.md) 
-* [二维数组中的查找](./doc/offer/4.md) 
-* [旋转数组的最小数字](./doc/offer/11.md) 
-* [字符串的排列](./doc/offer/38.md) 
-* [数字序列中某一位的数字](./doc/offer/44.md)
+* [数字在升序数组中出现的次数](./doc/offer/search/53.md) 
+* [二维数组中的查找](./doc/offer/search/4.md) 
+* [旋转数组的最小数字](./doc/offer/search/11.md) 
+* [字符串的排列](./doc/offer/search/38.md) 
+* [数字序列中某一位的数字](./doc/offer/search/44.md)
 
 > 动态规划
 
-* [连续子数组的最大和](./doc/offer/42.md) 
-* [连续子数组的最大和(二)](./doc/offer/85.md) 
-* [跳台阶](./doc/offer/69.md) 
-* [斐波那契数列](./doc/offer/10.md) 
-* [正则表达式匹配](./doc/offer/19.md) 
-* [跳台阶扩展问题](./doc/offer/71.md) 
-* [矩形覆盖](./doc/offer/70.md) 
-* [买卖股票的最好时机(一)](./doc/offer/63.md) 
-* [礼物的最大价值](./doc/offer/47.md) 
-* [最长不含重复字符的子字符串](./doc/offer/48.md) 
-* [把数字翻译成字符串](./doc/offer/46.md)
+* [连续子数组的最大和](./doc/offer/dynamicProgramming/42.md) 
+* [连续子数组的最大和(二)](./doc/offer/dynamicProgramming/85.md) 
+* [跳台阶](./doc/offer/dynamicProgramming/69.md) 
+* [斐波那契数列](./doc/offer/dynamicProgramming/10.md) 
+* [正则表达式匹配](./doc/offer/dynamicProgramming/19.md) 
+* [跳台阶扩展问题](./doc/offer/dynamicProgramming/71.md) 
+* [矩形覆盖](./doc/offer/dynamicProgramming/70.md) 
+* [买卖股票的最好时机(一)](./doc/offer/dynamicProgramming/63.md) 
+* [礼物的最大价值](./doc/offer/dynamicProgramming/47.md) 
+* [最长不含重复字符的子字符串](./doc/offer/dynamicProgramming/48.md) 
+* [把数字翻译成字符串](./doc/offer/dynamicProgramming/46.md)
 
 > 回溯
 
@@ -107,10 +113,10 @@ goconvey
 
 > 排序
 
-* [数组中重复的数字](./doc/offer/3.md) 
-* [数组中的逆序对](./doc/offer/51.md) 
-* [最小的K个数](./doc/offer/40.md) 
-* [数据流中的中位数](./doc/offer/41.md) 
+* [数组中重复的数字](./doc/offer/sort/3.md) 
+* [数组中的逆序对](./doc/offer/sort/51.md) 
+* [最小的K个数](./doc/offer/sort/40.md) 
+* [数据流中的中位数](./doc/offer/sort/41.md) 
 
 > 位运算
 

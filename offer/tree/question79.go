@@ -2,10 +2,8 @@ package tree
 
 // 判断是不是平衡二叉树
 func Question79() string {
-	var pre = []int{1, 2, 3, 4, 5, 6, 7}
-	var vin = []int{3, 2, 4, 1, 6, 5, 7}
-	root := reConstructBinaryTree(pre, vin)
-	IsBalanced_Solution(root)
+	tree := []int{1, 2, 3, 4, 5, 6, 7}
+	IsBalanced_Solution(Ints2TreeNode(tree))
 	return "done!"
 }
 

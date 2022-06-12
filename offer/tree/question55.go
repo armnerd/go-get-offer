@@ -1,9 +1,9 @@
 package tree
 
+// 二叉树的深度
 func Question55() string {
-	var pre = []int{1, 2, 3, 4, 5, 6, 7}
-	var vin = []int{3, 2, 4, 1, 6, 5, 7}
-	root := reConstructBinaryTree(pre, vin)
+	var tree = []int{1, 2, 3, 4, 5, NULL, 6, NULL, NULL, 7}
+	root := Ints2TreeNode(tree)
 	TreeDepth(root)
 	return "done!"
 }

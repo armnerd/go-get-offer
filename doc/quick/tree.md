@@ -123,11 +123,13 @@ func Print(pRoot *TreeNode) [][]int {
 
 ## 题目
 
-给定一棵结点数为 n 二叉搜索树，请找出其中的第 k 小的TreeNode结点。
+给定一棵结点数为 n 二叉搜索树，请找出其中的第 k 小的 TreeNode 结点值
 
-要求：空间复杂度 O(1)，时间复杂度 O(n)
+1. 返回第k小的节点值即可
+2. 不能查找的情况，如二叉树为空，则返回-1，或者k大于n等等，也返回-1
+3. 保证n个节点的值不一样
 
-注意：不是返回结点的值
+要求：空间复杂度 O(n)，时间复杂度 O(n)
 
 ## 示例
 
@@ -152,13 +154,13 @@ func Print(pRoot *TreeNode) [][]int {
 ```go
 var res *TreeNode
 
-func KthNode(pRoot *TreeNode, k int) *TreeNode {
+func KthNode(pRoot *TreeNode, k int) int {
 	inOrder(pRoot, &k)
-    if res != nil {
-        res.Left = nil
-        res.Right = nil
-    }
-	return res
+	if res != nil {
+		return res.Val
+	} else {
+		return -1
+	}
 }
 
 func inOrder(root *TreeNode, k *int) {
@@ -205,10 +207,11 @@ func inOrder(root *TreeNode, k *int) {
 ## 实现
 
 ```go
-func reConstructBinaryTree(pre []int, vin []int) *TreeNode {
+func ReConstructBinaryTree(pre []int, vin []int) *TreeNode {
 	if len(pre) == 0 {
 		return nil
 	}
+	
 	// 找到根节点
 	root_val := pre[0]
 	root_node := &TreeNode{
@@ -224,8 +227,8 @@ func reConstructBinaryTree(pre []int, vin []int) *TreeNode {
 	}
 
 	// 大树拆小树递归处理
-	root_node.Left = reConstructBinaryTree(pre[1:1+index], vin[:index])
-	root_node.Right = reConstructBinaryTree(pre[1+index:], vin[index+1:])
+	root_node.Left = ReConstructBinaryTree(pre[1:1+index], vin[:index])
+	root_node.Right = ReConstructBinaryTree(pre[1+index:], vin[index+1:])
 
 	return root_node
 }

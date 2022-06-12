@@ -2,10 +2,8 @@ package tree
 
 // 在二叉树中找到两个节点的最近公共祖先
 func Question86() string {
-	var pre = []int{1, 2, 3, 4, 5, 6, 7}
-	var vin = []int{3, 2, 4, 1, 6, 5, 7}
-	root := reConstructBinaryTree(pre, vin)
-	LowestCommonAncestor(root, 3, 4)
+	tree := []int{3, 5, 1, 6, 2, 0, 8, NULL, NULL, 7, 4}
+	LowestCommonAncestor(Ints2TreeNode(tree), 3, 4)
 	return "done!"
 }
 

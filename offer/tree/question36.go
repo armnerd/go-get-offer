@@ -2,10 +2,9 @@ package tree
 
 // 二叉搜索树与双向链表
 func Question36() string {
-	var pre = []int{1, 2, 3, 4, 5, 6, 7}
-	var vin = []int{3, 2, 4, 1, 6, 5, 7}
-	root := reConstructBinaryTree(pre, vin)
-	Convert(root)
+	tree := []int{10, 6, 14, 4, 8, 12, 16}
+	// tree = []int{5, 4, NULL, 3, NULL, 2, NULL, 1}
+	Convert(Ints2TreeNode(tree))
 	return "done!"
 }
 

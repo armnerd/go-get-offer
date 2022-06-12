@@ -2,14 +2,12 @@ package tree
 
 // 对称的二叉树
 func Question28() string {
-	var pre = []int{1, 2, 3, 4, 5, 6, 7}
-	var vin = []int{3, 2, 4, 1, 6, 5, 7}
-	root := reConstructBinaryTree(pre, vin)
-	isSymmetrical(root)
+	tree := []int{1, 2, 2, 3, 4, 4, 3}
+	IsSymmetrical(Ints2TreeNode(tree))
 	return "done!"
 }
 
-func isSymmetrical(pRoot *TreeNode) bool {
+func IsSymmetrical(pRoot *TreeNode) bool {
 	return isSame(pRoot, pRoot)
 }
 

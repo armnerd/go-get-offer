@@ -2,22 +2,21 @@ package tree
 
 // 二叉搜索树的第k个结点
 func Question54() string {
-	var pre = []int{1, 2, 3, 4, 5, 6, 7}
-	var vin = []int{3, 2, 4, 1, 6, 5, 7}
-	root := reConstructBinaryTree(pre, vin)
+	tree := []int{5, 3, 7, 2, 4, 6, 8}
+	root := Ints2TreeNode(tree)
 	KthNode(root, 3)
 	return "done!"
 }
 
 var res *TreeNode
 
-func KthNode(pRoot *TreeNode, k int) *TreeNode {
+func KthNode(pRoot *TreeNode, k int) int {
 	inOrder(pRoot, &k)
 	if res != nil {
-		res.Left = nil
-		res.Right = nil
+		return res.Val
+	} else {
+		return -1
 	}
-	return res
 }
 
 func inOrder(root *TreeNode, k *int) {

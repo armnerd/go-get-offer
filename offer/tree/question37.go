@@ -7,11 +7,9 @@ import (
 
 // 序列化二叉树
 func Question37() string {
-	var pre = []int{1, 2, 3, 4, 5, 6, 7}
-	var vin = []int{3, 2, 4, 1, 6, 5, 7}
-	root := reConstructBinaryTree(pre, vin)
-	res := Serialize(root)
-	Deserialize(res)
+	tree := []int{1, 2, 3, NULL, NULL, 6, 7}
+	str := Serialize(Ints2TreeNode(tree))
+	Deserialize(str)
 	return "done!"
 }
 

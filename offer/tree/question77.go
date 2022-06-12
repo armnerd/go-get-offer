@@ -2,9 +2,8 @@ package tree
 
 // 按之字形顺序打印二叉树
 func Question77() string {
-	var pre = []int{1, 2, 3, 4, 5, 6, 7}
-	var vin = []int{3, 2, 4, 1, 6, 5, 7}
-	root := reConstructBinaryTree(pre, vin)
+	tree := []int{1, 2, 3, NULL, NULL, 4, 5}
+	root := Ints2TreeNode(tree)
 	SnakePrint(root)
 	return "done!"
 }

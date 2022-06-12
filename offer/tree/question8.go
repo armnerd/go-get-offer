@@ -2,10 +2,6 @@ package tree
 
 // 二叉树的下一个结点
 func Question8() string {
-	var pre = []int{1, 2, 3, 4, 5, 6, 7}
-	var vin = []int{3, 2, 4, 1, 6, 5, 7}
-	root := reConstructBinaryTree(pre, vin)
-	LowestCommonAncestor(root, 3, 4)
 	return "done!"
 }
 

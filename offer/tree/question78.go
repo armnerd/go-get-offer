@@ -2,10 +2,8 @@ package tree
 
 // 把二叉树打印成多行
 func Question78() string {
-	var pre = []int{1, 2, 3, 4, 5, 6, 7}
-	var vin = []int{3, 2, 4, 1, 6, 5, 7}
-	root := reConstructBinaryTree(pre, vin)
-	Print(root)
+	tree := []int{1, 2, 3, NULL, NULL, 4, 5}
+	Print(Ints2TreeNode(tree))
 	return "done!"
 }
 

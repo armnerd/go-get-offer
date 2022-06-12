@@ -2,19 +2,16 @@ package tree
 
 // 从上往下打印二叉树
 func Question32() string {
-	var pre = []int{1, 2, 3, 4, 5, 6, 7}
-	var vin = []int{3, 2, 4, 1, 6, 5, 7}
-	root := reConstructBinaryTree(pre, vin)
-	PrintFromTopToBottom(root)
+	root := []int{8, 6, 10, NULL, NULL, 2, 1}
+	PrintFromTopToBottom(Ints2TreeNode(root))
 	return "done!"
 }
-
-var list = []int{}
 
 func PrintFromTopToBottom(pRoot *TreeNode) []int {
 	if pRoot == nil {
 		return nil
 	}
+	var list = []int{}
 	nodeToBeMachined := []*TreeNode{pRoot} // 待处理的一层节点
 	for len(nodeToBeMachined) != 0 {
 		nextLevelNodes := make([]*TreeNode, 0)
