@@ -5,12 +5,6 @@ func Question35() string {
 	return "done!"
 }
 
-type RandomListNode struct {
-	Label  int
-	Next   *RandomListNode
-	Random *RandomListNode
-}
-
 func Clone(head *RandomListNode) *RandomListNode {
 	if head == nil {
 		return nil

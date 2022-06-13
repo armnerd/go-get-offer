@@ -2,19 +2,12 @@ package link
 
 // 删除链表的节点
 func Question18() string {
-	var head *ListNode
-	for _, v := range [4]int{9, 1, 5, 2} {
-		node := ListNode{
-			Val:  v,
-			Next: head,
-		}
-		head = &node
-	}
-	deleteNode(head, 5)
+	link := Ints2List([]int{2, 5, 1, 9})
+	DeleteNode(link, 5)
 	return "done!"
 }
 
-func deleteNode(head *ListNode, val int) *ListNode {
+func DeleteNode(head *ListNode, val int) *ListNode {
 	var cur *ListNode = head
 	var pre *ListNode = head
 	for {

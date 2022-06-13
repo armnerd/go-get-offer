@@ -2,31 +2,26 @@ package link
 
 // 两个链表的第一个公共结点
 func Question52() string {
-	var common *ListNode = nil
-	for _, v := range [2]int{7, 6} {
-		node := ListNode{
-			Val:  v,
-			Next: common,
+	common := Ints2List([]int{6, 7})
+	list1 := Ints2List([]int{1, 2, 3})
+	temp1 := list1
+	for {
+		if temp1.Next == nil {
+			temp1.Next = common
+			break
 		}
-		common = &node
+		temp1 = temp1.Next
 	}
-	var one *ListNode = common
-	for _, v := range [3]int{3, 2, 1} {
-		node := ListNode{
-			Val:  v,
-			Next: one,
+	list2 := Ints2List([]int{4, 5})
+	temp2 := list2
+	for {
+		if temp2.Next == nil {
+			temp2.Next = common
+			break
 		}
-		one = &node
+		temp2 = temp2.Next
 	}
-	var two *ListNode = common
-	for _, v := range [2]int{5, 4} {
-		node := ListNode{
-			Val:  v,
-			Next: two,
-		}
-		two = &node
-	}
-	res := FindFirstCommonNode(one, two)
+	res := FindFirstCommonNode(list1, list2)
 	ReviewAll(res)
 	return "done!"
 }

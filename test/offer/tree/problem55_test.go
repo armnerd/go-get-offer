@@ -1,4 +1,4 @@
-package offer
+package tree
 
 import (
 	"go-get-offer/offer/tree"

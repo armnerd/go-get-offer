@@ -2,45 +2,8 @@ package link
 
 // 链表中环的入口结点
 func Question23() string {
-	var entry = &ListNode{
-		Val:  3,
-		Next: nil,
-	}
-	var circle *ListNode
-	for k, v := range [2]int{5, 4} {
-		var node ListNode
-		if k == 0 {
-			node = ListNode{
-				Val:  v,
-				Next: entry,
-			}
-		} else {
-			node = ListNode{
-				Val:  v,
-				Next: circle,
-			}
-		}
-		circle = &node
-	}
-	entry.Next = circle
-	var start *ListNode
-	for k, v := range [2]int{2, 1} {
-		var node ListNode
-		if k == 0 {
-			node = ListNode{
-				Val:  v,
-				Next: entry,
-			}
-		} else {
-			node = ListNode{
-				Val:  v,
-				Next: start,
-			}
-		}
-		start = &node
-	}
-	// ReviewAll(start)
-	EntryNodeOfLoop(start)
+	list := Ints2ListWithCycle([]int{1, 2, 3, 4, 5}, 2)
+	EntryNodeOfLoop(list)
 	return "done!"
 }
 

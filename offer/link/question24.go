@@ -2,16 +2,9 @@ package link
 
 // 反转链表
 func Question24() string {
-	var next *ListNode
-	for _, v := range [3]int{3, 2, 1} {
-		node := ListNode{
-			Val:  v,
-			Next: next,
-		}
-		next = &node
-	}
-	ReverseListRaw(next)
-	ReverseList(next)
+	list := Ints2List([]int{1, 2, 3})
+	ReverseListRaw(list)
+	ReverseList(list)
 	return "done!"
 }
 

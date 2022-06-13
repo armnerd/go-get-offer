@@ -2,19 +2,12 @@ package link
 
 // 删除链表中重复的结点
 func Question76() string {
-	var pHead *ListNode
-	for _, v := range [7]int{5, 4, 4, 3, 3, 2, 1} {
-		node := ListNode{
-			Val:  v,
-			Next: pHead,
-		}
-		pHead = &node
-	}
-	deleteDuplication(pHead)
+	list := Ints2List([]int{1, 2, 3, 3, 4, 4, 5})
+	DeleteDuplication(list)
 	return "done!"
 }
 
-func deleteDuplication(pHead *ListNode) *ListNode {
+func DeleteDuplication(pHead *ListNode) *ListNode {
 	var vhead *ListNode = &ListNode{
 		Val:  -1,
 		Next: pHead,

@@ -2,23 +2,9 @@ package link
 
 // 合并两个排序的链表
 func Question25() string {
-	var one *ListNode
-	for _, v := range [3]int{5, 3, 1} {
-		node := ListNode{
-			Val:  v,
-			Next: one,
-		}
-		one = &node
-	}
-	var two *ListNode
-	for _, v := range [3]int{6, 4, 2} {
-		node := ListNode{
-			Val:  v,
-			Next: two,
-		}
-		two = &node
-	}
-	Merge(one, two)
+	list1 := Ints2List([]int{1, 3, 5})
+	list2 := Ints2List([]int{2, 4, 6})
+	Merge(list1, list2)
 	return "done!"
 }
 
