@@ -108,8 +108,8 @@ goconvey
 
 > 回溯
 
-* [矩阵中的路径](./doc/offer/12.md) 
-* [机器人的运动范围](./doc/offer/13.md) 
+* [矩阵中的路径](./doc/offer/other/12.md) 
+* [机器人的运动范围](./doc/offer/other/13.md) 
 
 > 排序
 
@@ -120,35 +120,35 @@ goconvey
 
 > 位运算
 
-* [不用加减乘除做加法](./doc/offer/65.md) 
-* [二进制中1的个数](./doc/offer/15.md) 
-* [数值的整数次方](./doc/offer/16.md) 
-* [数组中只出现一次的两个数字](./doc/offer/56.md) 
-* [求1+2+3+...+n](./doc/offer/64.md) 
+* [不用加减乘除做加法](./doc/offer/other/65.md) 
+* [二进制中1的个数](./doc/offer/other/15.md) 
+* [数值的整数次方](./doc/offer/other/16.md) 
+* [数组中只出现一次的两个数字](./doc/offer/other/56.md) 
+* [求1+2+3+...+n](./doc/offer/other/64.md) 
 
 > 模拟
 
-* [顺时针打印矩阵](./doc/offer/29.md) 
-* [扑克牌顺子](./doc/offer/61.md) 
-* [把字符串转换成整数(atoi)](./doc/offer/67.md) 
-* [表示数值的字符串](./doc/offer/20.md)
+* [顺时针打印矩阵](./doc/offer/other/29.md) 
+* [扑克牌顺子](./doc/offer/other/61.md) 
+* [把字符串转换成整数(atoi)](./doc/offer/other/67.md) 
+* [表示数值的字符串](./doc/offer/other/20.md)
 
 > 其他算法
 
-* [构建乘积数组](./doc/offer/66.md) 
-* [第一个只出现一次的字符](./doc/offer/50.md) 
-* [替换空格](./doc/offer/5.md) 
-* [调整数组顺序使奇数位于偶数前面(一)](./doc/offer/21.md) 
-* [数组中出现次数超过一半的数字](./doc/offer/39.md) 
-* [整数中1出现的次数（从1到n整数中1出现的次数）](./doc/offer/43.md) 
-* [把数组排成最小的数](./doc/offer/45.md) 
-* [丑数](./doc/offer/49.md) 
-* [和为S的连续正数序列](./doc/offer/74.md) 
-* [和为S的两个数字](./doc/offer/57.md) 
-* [左旋转字符串](./doc/offer/58.md) 
-* [孩子们的游戏(圆圈中最后剩下的数)](./doc/offer/62.md) 
-* [字符流中第一个不重复的字符](./doc/offer/75.md) 
-* [剪绳子](./doc/offer/14.md) 
-* [调整数组顺序使奇数位于偶数前面(二)](./doc/offer/81.md) 
-* [剪绳子（进阶版）](./doc/offer/83.md) 
-* [打印从1到最大的n位数](./doc/offer/17.md)
+* [构建乘积数组](./doc/offer/other/66.md) 
+* [第一个只出现一次的字符](./doc/offer/other/50.md) 
+* [替换空格](./doc/offer/other/5.md) 
+* [调整数组顺序使奇数位于偶数前面(一)](./doc/offer/other/21.md) 
+* [数组中出现次数超过一半的数字](./doc/offer/other/39.md) 
+* [整数中1出现的次数（从1到n整数中1出现的次数）](./doc/offer/other/43.md) 
+* [把数组排成最小的数](./doc/offer/other/45.md) 
+* [丑数](./doc/offer/other/49.md) 
+* [和为S的连续正数序列](./doc/offer/other/74.md) 
+* [和为S的两个数字](./doc/offer/other/57.md) 
+* [左旋转字符串](./doc/offer/other/58.md) 
+* [孩子们的游戏(圆圈中最后剩下的数)](./doc/offer/other/62.md) 
+* [字符流中第一个不重复的字符](./doc/offer/other/75.md) 
+* [剪绳子](./doc/offer/other/14.md) 
+* [调整数组顺序使奇数位于偶数前面(二)](./doc/offer/other/81.md) 
+* [剪绳子（进阶版）](./doc/offer/other/83.md) 
+* [打印从1到最大的n位数](./doc/offer/other/17.md)

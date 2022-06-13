@@ -4,11 +4,11 @@ package question59
 func Run() string {
 	num := []int{2, 3, 4, 2, 6, 2, 5, 1}
 	size := 3
-	maxInWindows(num, size)
+	MaxInWindows(num, size)
 	return "done!"
 }
 
-func maxInWindows(num []int, size int) []int {
+func MaxInWindows(num []int, size int) []int {
 	res := make([]int, 0)
 	if len(num) == 0 || size == 0 {
 		return res
