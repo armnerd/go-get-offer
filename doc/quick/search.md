@@ -115,12 +115,7 @@ func Find(target int, array [][]int) bool {
 	// 行与列
 	r := 0
 	c := n - 1
-	for {
-		// 循环结束条件
-		if r >= m || c < 0 {
-			break
-		}
-
+	for r < m && c >= 0 {
 		// 二分查找
 		if target == array[r][c] {
 			return true
@@ -156,16 +151,13 @@ NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。
 ## 实现
 
 ```go
-func minNumberInRotateArray(rotateArray []int) int {
+func MinNumberInRotateArray(rotateArray []int) int {
 	if len(rotateArray) == 0 {
 		return 0
 	}
 	low := 0
 	high := len(rotateArray) - 1
-	for {
-		if low >= high {
-			break
-		}
+	for high > low {
 		mid := (high + low) / 2
 		if rotateArray[mid] > rotateArray[high] {
 			// 中位大于高位，低位是中位后一位

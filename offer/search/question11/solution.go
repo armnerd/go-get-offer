@@ -5,21 +5,18 @@ import "fmt"
 // 旋转数组的最小数字
 func Run() string {
 	rotateArray := []int{3, 6, 5, 1, 2}
-	res := minNumberInRotateArray(rotateArray)
+	res := MinNumberInRotateArray(rotateArray)
 	fmt.Println(res)
 	return "done!"
 }
 
-func minNumberInRotateArray(rotateArray []int) int {
+func MinNumberInRotateArray(rotateArray []int) int {
 	if len(rotateArray) == 0 {
 		return 0
 	}
 	low := 0
 	high := len(rotateArray) - 1
-	for {
-		if low >= high {
-			break
-		}
+	for high > low {
 		mid := (high + low) / 2
 		if rotateArray[mid] > rotateArray[high] {
 			// 中位大于高位，低位是中位后一位

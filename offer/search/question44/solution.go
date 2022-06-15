@@ -7,12 +7,12 @@ import (
 
 // 数字序列中某一位的数字
 func Run() string {
-	res := findNthDigit(10)
+	res := FindNthDigit(10)
 	fmt.Println(res)
 	return "done!"
 }
 
-func findNthDigit(n int) int {
+func FindNthDigit(n int) int {
 	start, digit, count := 1, 1, 9
 	for n > count {
 		n -= count

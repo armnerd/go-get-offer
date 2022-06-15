@@ -5,7 +5,12 @@ import "fmt"
 // 二维数组中的查找
 func Run() string {
 	var target = 7
-	array := [][]int{{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}}
+	array := [][]int{
+		{1, 2, 8, 9},
+		{2, 4, 9, 12},
+		{4, 7, 10, 13},
+		{6, 8, 11, 15},
+	}
 	fmt.Println(Find(target, array))
 	return "done!"
 }
@@ -23,12 +28,7 @@ func Find(target int, array [][]int) bool {
 	// 行与列
 	r := 0
 	c := n - 1
-	for {
-		// 循环结束条件
-		if r >= m || c < 0 {
-			break
-		}
-
+	for r < m && c >= 0 {
 		// 二分查找
 		if target == array[r][c] {
 			return true
