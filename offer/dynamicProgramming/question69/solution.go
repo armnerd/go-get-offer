@@ -2,11 +2,12 @@ package question69
 
 import "fmt"
 
+// 跳台阶
 func Run() string {
 	fmt.Println(jumpFloor1(5))
 	fmt.Println(jumpFloor2(5))
 	fmt.Println(jumpFloor3(5))
-	fmt.Println(jumpFloor4(5))
+	fmt.Println(JumpFloor(5))
 	return "done!"
 }
 
@@ -53,7 +54,7 @@ func jumpFloor3(number int) int {
 }
 
 // 究极动态规划
-func jumpFloor4(number int) int {
+func JumpFloor(number int) int {
 	if number <= 1 {
 		return 1
 	}

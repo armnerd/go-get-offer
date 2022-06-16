@@ -4,12 +4,12 @@ import "fmt"
 
 // 跳台阶扩展问题
 func Run() string {
-	res := jumpFloorII(3)
+	res := JumpFloorII(3)
 	fmt.Println(res)
 	return "done!"
 }
 
-func jumpFloorII(number int) int {
+func JumpFloorII(number int) int {
 	if number <= 1 {
 		return 1
 	}

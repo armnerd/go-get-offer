@@ -4,12 +4,12 @@ import "fmt"
 
 // 正则表达式匹配
 func Run() string {
-	res := match("aaa", "a*a")
+	res := Match("aaa", "a*a")
 	fmt.Println(res)
 	return "done!"
 }
 
-func match(str string, pattern string) bool {
+func Match(str string, pattern string) bool {
 	sSize := len(str)
 	pSize := len(pattern)
 

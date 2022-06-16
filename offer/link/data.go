@@ -75,10 +75,7 @@ func Ints2ListWithCycle(nums []int, pos int) *ListNode {
 }
 
 func ReviewAll(pHead *ListNode) {
-	for {
-		if pHead == nil {
-			break
-		}
+	for pHead != nil {
 		fmt.Println(pHead.Val)
 		time.Sleep(time.Duration(1) * time.Second)
 		pHead = pHead.Next
