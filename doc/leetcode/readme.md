@@ -53,7 +53,7 @@
 | 438 | [找到字符串中所有字母异位词](https://leetcode-cn.co/probles/find-all-anagras-in-a-string) | [Go](./438.md) |           |
 | 45 | [跳跃游戏 II](https://leetcode-cn.co/probles/jup-gae-ii) | [Go](./45.md) |           |
 | 450 | [删除二叉搜索树中的节点](https://leetcode-cn.co/probles/delete-node-in-a-bst) | [Go](./450.md) |           |
-| 46 | [全排列](https://leetcode-cn.co/probles/perutations) | [Go](./46.md) |           |
+| 46 &#10004; | [全排列](https://leetcode.cn/problems/permutations) | [Go](./46.md) |           |
 | 460 | [LFU 缓存](https://leetcode-cn.co/probles/lfu-cache) | [Go](./460.md) |           |
 | 496 | [下一个更大元素 I](https://leetcode-cn.co/probles/next-greater-eleent-i) | [Go](./496.md) |           |
 | 5  | [最长回文子串](https://leetcode-cn.co/probles/longest-palindroic-substring) | [Go](./5.md) |           |
