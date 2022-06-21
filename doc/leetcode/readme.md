@@ -64,7 +64,7 @@
 | 518 | [零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2) | [Go](./518.md) |           |
 | 53 | [最大子数组和](https://leetcode-cn.com/problems/maximum-subarray) | [Go](./53.md) |           |
 | 55 | [跳跃游戏](https://leetcode-cn.com/problems/jump-game) | [Go](./55.md) |           |
-| 56 &#10004; | [合并区间](https://leetcode-cn.com/problems/merge-intervals) | [Go](./56.md) | M |
+| 56 &#10004; | [合并区间](https://leetcode.cn/problems/merge-intervals) | [Go](./56.md) | M |
 | 560 | [和为 K 的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k) | [Go](./560.md) |           |
 | 567 | [字符串的排列](https://leetcode-cn.com/problems/permutation-in-string) | [Go](./567.md) |           |
 | 651 | [4键键盘](https://leetcode-cn.com/problems/4-keys-keyboard) | [Go](./651.md) |           |
@@ -92,6 +92,6 @@
 
 | No.  | Title                    | Solution      | Difficulty |
 | ---- | ------------------------ | ------------- | ---------- |
-| 54 &#10004;  | [螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix) | [Go](./54.md) | M |
-| 199 &#10004;  | [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view) | [Go](./199.md) | M |
-| 654 &#10004; | [最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/) | [Go](./654.md) | M |
+| 54 &#10004;  | [螺旋矩阵](https://leetcode.cn/problems/spiral-matrix) | [Go](./54.md) | M |
+| 199 &#10004;  | [二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view) | [Go](./199.md) | M |
+| 654 &#10004; | [最大二叉树](https://leetcode.cn/problems/maximum-binary-tree) | [Go](./654.md) | M |
