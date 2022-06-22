@@ -41,8 +41,8 @@ func TestProblem46(t *testing.T) {
 	}
 	convey.Convey("全排列", t, func() {
 		for _, v := range dataSet {
-			tree := leetcode46.Permute(v.Nums)
-			convey.So(tree, convey.ShouldResemble, v.ExpectResult)
+			res := leetcode46.Permute(v.Nums)
+			convey.So(res, convey.ShouldResemble, v.ExpectResult)
 		}
 	})
 }

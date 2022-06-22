@@ -59,7 +59,7 @@
 | 5  | [最长回文子串](https://leetcode-cn.co/probles/longest-palindroic-substring) | [Go](./5.md) |           |
 | 503 | [下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii) | [Go](./503.md) |           |
 | 509 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number) | [Go](./509.md) |           |
-| 51 | [N 皇后](https://leetcode-cn.com/problems/n-queens) | [Go](./51.md) |           |
+| 51 &#10004; | [N 皇后](https://leetcode.cn/problems/n-queens) | [Go](./51.md) |           |
 | 516 | [最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence) | [Go](./516.md) |           |
 | 518 | [零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2) | [Go](./518.md) |           |
 | 53 | [最大子数组和](https://leetcode-cn.com/problems/maximum-subarray) | [Go](./53.md) |           |

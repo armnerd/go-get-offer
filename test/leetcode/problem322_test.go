@@ -33,8 +33,8 @@ func TestProblem322(t *testing.T) {
 	}
 	convey.Convey("零钱兑换", t, func() {
 		for _, v := range dataSet {
-			tree := leetcode322.CoinChange(v.Coins, v.Amount)
-			convey.So(tree, convey.ShouldEqual, v.ExpectResult)
+			res := leetcode322.CoinChange(v.Coins, v.Amount)
+			convey.So(res, convey.ShouldEqual, v.ExpectResult)
 		}
 	})
 }
