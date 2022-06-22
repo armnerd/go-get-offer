@@ -10,7 +10,7 @@
 | 10   | [正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching) | [Go](./10.md) |           |
 | 100   | [相同的树](https://leetcode-cn.com/problems/same-tree) | [Go](./100.md) |           |
 | 1011   | [在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days) | [Go](./1011.md) |           |
-| 111   | [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree) | [Go](./111.md) |           |
+| 111 &#10004; | [二叉树的最小深度](https://leetcode.cn/problems/minimum-depth-of-binary-tree) | [Go](./111.md) | S |
 | 1118   | [一月有多少天](https://leetcode-cn.com/problems/number-of-days-in-a-month) | [Go](./1118.md) |           |
 | 1143   | [最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence) | [Go](./1143.md) |           |
 | 130   | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions) | [Go](./130.md) |           |
@@ -59,7 +59,7 @@
 | 5  | [最长回文子串](https://leetcode-cn.co/probles/longest-palindroic-substring) | [Go](./5.md) |           |
 | 503 | [下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii) | [Go](./503.md) |           |
 | 509 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number) | [Go](./509.md) |           |
-| 51 &#10004; | [N 皇后](https://leetcode.cn/problems/n-queens) | [Go](./51.md) |           |
+| 51 &#10004; | [N 皇后](https://leetcode.cn/problems/n-queens) | [Go](./51.md) | H |
 | 516 | [最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence) | [Go](./516.md) |           |
 | 518 | [零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2) | [Go](./518.md) |           |
 | 53 | [最大子数组和](https://leetcode-cn.com/problems/maximum-subarray) | [Go](./53.md) |           |
