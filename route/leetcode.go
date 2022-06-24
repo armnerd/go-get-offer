@@ -1,6 +1,7 @@
 package route
 
 import (
+	"go-get-offer/leetcode/leetcode1"
 	"go-get-offer/leetcode/leetcode322"
 	"go-get-offer/leetcode/leetcode46"
 	"go-get-offer/leetcode/leetcode51"
@@ -15,6 +16,7 @@ import (
 */
 func Leetcode() {
 	// 小抄
+	Setting.handlerMap["leetcode1"] = leetcode1.Run          // 两数之和
 	Setting.handlerMap["leetcode111"] = leettree.Leetcode111 // 二叉树的最小深度
 	Setting.handlerMap["leetcode322"] = leetcode322.Run      // 零钱兑换
 	Setting.handlerMap["leetcode46"] = leetcode46.Run        // 全排列

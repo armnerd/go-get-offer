@@ -6,7 +6,7 @@
 
 | No.  | Title                    | Solution      | Difficulty |
 | ---- | ------------------------ | ------------- | ---------- |
-| 1  | [两数之和](https://leetcode-cn.com/problems/two-sum) | [Go](./1.md) |           |
+| 1 &#10004; | [两数之和](https://leetcode.cn/problems/two-sum) | [Go](./1.md) | S |
 | 10   | [正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching) | [Go](./10.md) |           |
 | 100   | [相同的树](https://leetcode-cn.com/problems/same-tree) | [Go](./100.md) |           |
 | 1011   | [在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days) | [Go](./1011.md) |           |
