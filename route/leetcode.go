@@ -6,6 +6,7 @@ import (
 	"go-get-offer/leetcode/leetcode51"
 	"go-get-offer/leetcode/leetcode54"
 	"go-get-offer/leetcode/leetcode56"
+	"go-get-offer/leetcode/leetcode752"
 	"go-get-offer/leetcode/leettree"
 )
 
@@ -19,6 +20,7 @@ func Leetcode() {
 	Setting.handlerMap["leetcode46"] = leetcode46.Run        // 全排列
 	Setting.handlerMap["leetcode51"] = leetcode51.Run        // N 皇后
 	Setting.handlerMap["leetcode56"] = leetcode56.Run        // 合并区间
+	Setting.handlerMap["leetcode752"] = leetcode752.Run      // 打开转盘锁
 
 	// 随缘
 	Setting.handlerMap["leetcode54"] = leetcode54.Run        // 螺旋矩阵

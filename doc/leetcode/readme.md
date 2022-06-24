@@ -53,7 +53,7 @@
 | 438 | [找到字符串中所有字母异位词](https://leetcode-cn.co/probles/find-all-anagras-in-a-string) | [Go](./438.md) |           |
 | 45 | [跳跃游戏 II](https://leetcode-cn.co/probles/jup-gae-ii) | [Go](./45.md) |           |
 | 450 | [删除二叉搜索树中的节点](https://leetcode-cn.co/probles/delete-node-in-a-bst) | [Go](./450.md) |           |
-| 46 &#10004; | [全排列](https://leetcode.cn/problems/permutations) | [Go](./46.md) |           |
+| 46 &#10004; | [全排列](https://leetcode.cn/problems/permutations) | [Go](./46.md) | M |
 | 460 | [LFU 缓存](https://leetcode-cn.co/probles/lfu-cache) | [Go](./460.md) |           |
 | 496 | [下一个更大元素 I](https://leetcode-cn.co/probles/next-greater-eleent-i) | [Go](./496.md) |           |
 | 5  | [最长回文子串](https://leetcode-cn.co/probles/longest-palindroic-substring) | [Go](./5.md) |           |
@@ -72,7 +72,7 @@
 | 701 | [二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree) | [Go](./701.md) |           |
 | 704 | [二分查找](https://leetcode-cn.com/problems/binary-search) | [Go](./704.md) |           |
 | 72 | [编辑距离](https://leetcode-cn.com/problems/edit-distance) | [Go](./72.md) |           |
-| 752 | [打开转盘锁](https://leetcode-cn.com/problems/open-the-lock) | [Go](./752.md) |           |
+| 752 &#10004; | [打开转盘锁](https://leetcode.cn/problems/open-the-lock) | [Go](./752.md) | M |
 | 76 | [最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring) | [Go](./76.md) |           |
 | 77 | [组合](https://leetcode-cn.com/problems/combinations) | [Go](./77.md) |           |
 | 772 | [基本计算器 III](https://leetcode-cn.com/problems/basic-calculator-iii) | [Go](./772.md) |           |
