@@ -88,10 +88,11 @@
 | 98 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) | [Go](./98.md) |           |
 | 990 | [等式方程的可满足性](https://leetcode-cn.com/problems/satisfiability-of-equality-equations) | [Go](./990.md) |           |
 
-## 随缘 { 3 }
+## 其他 { 4 }
 
 | No.  | Title                    | Solution      | Difficulty |
 | ---- | ------------------------ | ------------- | ---------- |
 | 54 &#10004;  | [螺旋矩阵](https://leetcode.cn/problems/spiral-matrix) | [Go](./54.md) | M |
 | 199 &#10004;  | [二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view) | [Go](./199.md) | M |
 | 654 &#10004; | [最大二叉树](https://leetcode.cn/problems/maximum-binary-tree) | [Go](./654.md) | M |
+| 283 &#10004; | [移动零](https://leetcode.cn/problems/move-zeroes) | [Go](./283.md) | S |

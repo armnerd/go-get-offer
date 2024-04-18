@@ -2,6 +2,7 @@ package route
 
 import (
 	"go-get-offer/leetcode/leetcode1"
+	"go-get-offer/leetcode/leetcode283"
 	"go-get-offer/leetcode/leetcode322"
 	"go-get-offer/leetcode/leetcode46"
 	"go-get-offer/leetcode/leetcode51"
@@ -12,7 +13,7 @@ import (
 )
 
 /*
-	leetcode
+leetcode
 */
 func Leetcode() {
 	// 小抄
@@ -28,4 +29,5 @@ func Leetcode() {
 	Setting.handlerMap["leetcode54"] = leetcode54.Run        // 螺旋矩阵
 	Setting.handlerMap["leetcode199"] = leettree.Leetcode199 // 二叉树的右视图
 	Setting.handlerMap["leetcode654"] = leettree.Leetcode654 // 最大二叉树
+	Setting.handlerMap["leetcode283"] = leetcode283.Run      // 移动零
 }
