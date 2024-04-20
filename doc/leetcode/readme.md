@@ -18,7 +18,7 @@
 | 141   | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | [Go](./141.md) |           |
 | 142   | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | [Go](./142.md) |           |
 | 146   | [LRU 缓存](https://leetcode-cn.com/problems/lru-cache) | [Go](./146.md) |           |
-| 15   | [三数之和](https://leetcode-cn.com/problems/3sum) | [Go](./15.md) |           |
+| 15 &#10004; | [三数之和](https://leetcode-cn.com/problems/3sum) | [Go](./15.md) | M |
 | 167   | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted) | [Go](./167.md) |           |
 | 170   | [两数之和 III - 数据结构设计](https://leetcode-cn.com/problems/two-sum-iii-data-structure-design) | [Go](./170.md) |           |
 | 18   | [四数之和](https://leetcode-cn.com/problems/4sum) | [Go](./18.md) |           |

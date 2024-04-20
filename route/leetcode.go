@@ -2,6 +2,7 @@ package route
 
 import (
 	"go-get-offer/leetcode/leetcode1"
+	"go-get-offer/leetcode/leetcode15"
 	"go-get-offer/leetcode/leetcode283"
 	"go-get-offer/leetcode/leetcode322"
 	"go-get-offer/leetcode/leetcode46"
@@ -24,6 +25,7 @@ func Leetcode() {
 	Setting.handlerMap["leetcode51"] = leetcode51.Run        // N 皇后
 	Setting.handlerMap["leetcode56"] = leetcode56.Run        // 合并区间
 	Setting.handlerMap["leetcode752"] = leetcode752.Run      // 打开转盘锁
+	Setting.handlerMap["leetcode15"] = leetcode15.Run        // 三数之和
 
 	// 随缘
 	Setting.handlerMap["leetcode54"] = leetcode54.Run        // 螺旋矩阵
