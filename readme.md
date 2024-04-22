@@ -32,7 +32,7 @@ goconvey
 
 * https://www.nowcoder.com/ta/coding-interviews
 
-### Leetcode { 86 }
+### Leetcode { 87 }
 
 * [出门右转](./doc/leetcode/readme.md)
 
