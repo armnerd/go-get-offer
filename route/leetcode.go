@@ -2,6 +2,7 @@ package route
 
 import (
 	"go-get-offer/leetcode/leetcode1"
+	"go-get-offer/leetcode/leetcode128"
 	"go-get-offer/leetcode/leetcode15"
 	"go-get-offer/leetcode/leetcode283"
 	"go-get-offer/leetcode/leetcode322"
@@ -32,4 +33,5 @@ func Leetcode() {
 	Setting.handlerMap["leetcode199"] = leettree.Leetcode199 // 二叉树的右视图
 	Setting.handlerMap["leetcode654"] = leettree.Leetcode654 // 最大二叉树
 	Setting.handlerMap["leetcode283"] = leetcode283.Run      // 移动零
+	Setting.handlerMap["leetcode128"] = leetcode128.Run      // 最长连续序列
 }
