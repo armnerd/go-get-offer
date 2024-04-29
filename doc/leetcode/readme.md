@@ -42,51 +42,51 @@
 | 312 | [戳气球]() | [Go](./312.md) |           |
 | 319 | [灯泡开关]() | [Go](./319.md) |           |
 | 322 &#10004; | [零钱兑换](https://leetcode.cn/problems/coin-change) | [Go](./322.md) | M |
-| 337 | [打家劫舍 III](https://leetcode-cn.co/probles/house-robber-iii) | [Go](./337.md) |           |
-| 34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.co/probles/find-first-and-last-position-of-eleent-in-sorted-array/) | [Go](./34.md) |           |
-| 341 | [扁平化嵌套列表迭代器](https://leetcode-cn.co/probles/flatten-nested-list-iterator) | [Go](./341.md) |           |
-| 354 | [俄罗斯套娃信封问题](https://leetcode-cn.co/probles/russian-doll-envelopes) | [Go](./354.md) |           |
-| 37 | [解数独](https://leetcode-cn.co/probles/sudoku-solver) | [Go](./37.md) |           |
-| 372 | [超级次方](https://leetcode-cn.co/probles/super-pow) | [Go](./372.md) |           |
-| 416 | [分割等和子集](https://leetcode-cn.co/probles/partition-equal-subset-su) | [Go](./416.md) |           |
-| 42 | [接雨水](https://leetcode-cn.co/probles/trapping-rain-water) | [Go](./42.md) |           |
-| 438 | [找到字符串中所有字母异位词](https://leetcode-cn.co/probles/find-all-anagras-in-a-string) | [Go](./438.md) |           |
-| 45 | [跳跃游戏 II](https://leetcode-cn.co/probles/jup-gae-ii) | [Go](./45.md) |           |
-| 450 | [删除二叉搜索树中的节点](https://leetcode-cn.co/probles/delete-node-in-a-bst) | [Go](./450.md) |           |
+| 337 | [打家劫舍 III]() | [Go](./337.md) |           |
+| 34 | [在排序数组中查找元素的第一个和最后一个位置]() | [Go](./34.md) |           |
+| 341 | [扁平化嵌套列表迭代器]() | [Go](./341.md) |           |
+| 354 | [俄罗斯套娃信封问题]() | [Go](./354.md) |           |
+| 37 | [解数独]() | [Go](./37.md) |           |
+| 372 | [超级次方]() | [Go](./372.md) |           |
+| 416 | [分割等和子集]() | [Go](./416.md) |           |
+| 42 | [接雨水]() | [Go](./42.md) |           |
+| 438 | [找到字符串中所有字母异位词]() | [Go](./438.md) |           |
+| 45 | [跳跃游戏 II]() | [Go](./45.md) |           |
+| 450 | [删除二叉搜索树中的节点]() | [Go](./450.md) |           |
 | 46 &#10004; | [全排列](https://leetcode.cn/problems/permutations) | [Go](./46.md) | M |
-| 460 | [LFU 缓存](https://leetcode-cn.co/probles/lfu-cache) | [Go](./460.md) |           |
-| 496 | [下一个更大元素 I](https://leetcode-cn.co/probles/next-greater-eleent-i) | [Go](./496.md) |           |
-| 5  | [最长回文子串](https://leetcode-cn.co/probles/longest-palindroic-substring) | [Go](./5.md) |           |
-| 503 | [下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii) | [Go](./503.md) |           |
-| 509 | [斐波那契数](https://leetcode-cn.com/problems/fibonacci-number) | [Go](./509.md) |           |
+| 460 | [LFU 缓存]() | [Go](./460.md) |           |
+| 496 | [下一个更大元素 I]() | [Go](./496.md) |           |
+| 5  | [最长回文子串]() | [Go](./5.md) |           |
+| 503 | [下一个更大元素 II]() | [Go](./503.md) |           |
+| 509 | [斐波那契数]() | [Go](./509.md) |           |
 | 51 &#10004; | [N 皇后](https://leetcode.cn/problems/n-queens) | [Go](./51.md) | H |
-| 516 | [最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence) | [Go](./516.md) |           |
-| 518 | [零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2) | [Go](./518.md) |           |
-| 53 | [最大子数组和](https://leetcode-cn.com/problems/maximum-subarray) | [Go](./53.md) |           |
-| 55 | [跳跃游戏](https://leetcode-cn.com/problems/jump-game) | [Go](./55.md) |           |
+| 516 | [最长回文子序列]() | [Go](./516.md) |           |
+| 518 | [零钱兑换 II]() | [Go](./518.md) |           |
+| 53 | [最大子数组和]() | [Go](./53.md) |           |
+| 55 | [跳跃游戏]() | [Go](./55.md) |           |
 | 56 &#10004; | [合并区间](https://leetcode.cn/problems/merge-intervals) | [Go](./56.md) | M |
-| 560 | [和为 K 的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k) | [Go](./560.md) |           |
-| 567 | [字符串的排列](https://leetcode-cn.com/problems/permutation-in-string) | [Go](./567.md) |           |
-| 651 | [4键键盘](https://leetcode-cn.com/problems/4-keys-keyboard) | [Go](./651.md) |           |
-| 700 | [二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree) | [Go](./700.md) |           |
-| 701 | [二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree) | [Go](./701.md) |           |
-| 704 | [二分查找](https://leetcode-cn.com/problems/binary-search) | [Go](./704.md) |           |
-| 72 | [编辑距离](https://leetcode-cn.com/problems/edit-distance) | [Go](./72.md) |           |
+| 560 &#10004; | [和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k) | [Go](./560.md) | M |
+| 567 | [字符串的排列]() | [Go](./567.md) |           |
+| 651 | [4键键盘]() | [Go](./651.md) |           |
+| 700 | [二叉搜索树中的搜索]() | [Go](./700.md) |           |
+| 701 | [二叉搜索树中的插入操作]() | [Go](./701.md) |           |
+| 704 | [二分查找]() | [Go](./704.md) |           |
+| 72 | [编辑距离]() | [Go](./72.md) |           |
 | 752 &#10004; | [打开转盘锁](https://leetcode.cn/problems/open-the-lock) | [Go](./752.md) | M |
-| 76 | [最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring) | [Go](./76.md) |           |
-| 77 | [组合](https://leetcode-cn.com/problems/combinations) | [Go](./77.md) |           |
-| 772 | [基本计算器 III](https://leetcode-cn.com/problems/basic-calculator-iii) | [Go](./772.md) |           |
-| 773 | [滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle) | [Go](./773.md) |           |
-| 78 | [子集](https://leetcode-cn.com/problems/subsets) | [Go](./78.md) |           |
-| 83 | [删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list) | [Go](./83.md) |           |
-| 855 | [考场就座](https://leetcode-cn.com/problems/exam-room) | [Go](./855.md) |           |
-| 875 | [爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas) | [Go](./875.md) |           |
-| 877 | [石子游戏](https://leetcode-cn.com/problems/stone-game) | [Go](./877.md) |           |
-| 887 | [鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop) | [Go](./887.md) |           |
-| 92 | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii) | [Go](./92.md) |           |
-| 969 | [煎饼排序](https://leetcode-cn.com/problems/pancake-sorting) | [Go](./969.md) |           |
-| 98 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) | [Go](./98.md) |           |
-| 990 | [等式方程的可满足性](https://leetcode-cn.com/problems/satisfiability-of-equality-equations) | [Go](./990.md) |           |
+| 76 | [最小覆盖子串]() | [Go](./76.md) |           |
+| 77 | [组合]() | [Go](./77.md) |           |
+| 772 | [基本计算器 III]() | [Go](./772.md) |           |
+| 773 | [滑动谜题]() | [Go](./773.md) |           |
+| 78 | [子集]() | [Go](./78.md) |           |
+| 83 | [删除排序链表中的重复元素]() | [Go](./83.md) |           |
+| 855 | [考场就座]() | [Go](./855.md) |           |
+| 875 | [爱吃香蕉的珂珂]() | [Go](./875.md) |           |
+| 877 | [石子游戏]() | [Go](./877.md) |           |
+| 887 | [鸡蛋掉落]() | [Go](./887.md) |           |
+| 92 | [反转链表 II]() | [Go](./92.md) |           |
+| 969 | [煎饼排序]() | [Go](./969.md) |           |
+| 98 | [验证二叉搜索树]() | [Go](./98.md) |           |
+| 990 | [等式方程的可满足性]() | [Go](./990.md) |           |
 
 ## 其他 { 6 }
 

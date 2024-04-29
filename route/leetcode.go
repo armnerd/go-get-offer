@@ -12,6 +12,7 @@ import (
 	"go-get-offer/leetcode/leetcode51"
 	"go-get-offer/leetcode/leetcode54"
 	"go-get-offer/leetcode/leetcode56"
+	"go-get-offer/leetcode/leetcode560"
 	"go-get-offer/leetcode/leetcode752"
 	"go-get-offer/leetcode/leettree"
 )
@@ -30,6 +31,7 @@ func Leetcode() {
 	Setting.handlerMap["leetcode752"] = leetcode752.Run      // 打开转盘锁
 	Setting.handlerMap["leetcode15"] = leetcode15.Run        // 三数之和
 	Setting.handlerMap["leetcode3"] = leetcode3.Run          // 无重复字符的最长子串
+	Setting.handlerMap["leetcode560"] = leetcode560.Run      // 和为 K 的子数组
 
 	// 随缘
 	Setting.handlerMap["leetcode54"] = leetcode54.Run        // 螺旋矩阵
